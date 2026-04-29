@@ -30,7 +30,6 @@ requirements:
 test:
   imports:
     - azure.mgmt.recoveryservicesbackup
-    - azure.mgmt.recoveryservicesbackup.aio
   commands:
     - pip check
   requires:
